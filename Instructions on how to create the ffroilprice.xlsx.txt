@@ -1,0 +1,6 @@
+Instructions on how to create the data file to import in SAS for data analysis.
+1. Download the Federal Funds Rate data from https://fred.stlouisfed.org/series/FEDFUNDS/. The file is titled FEDFUNDS.xlsx and is on GitHub
+2. Download the real oil prices from https://www.eia.gov/outlooks/steo/realprices/. The file is titled real_prices.xlsx
+3. Create new excel titled ffroilprice.xlsx(already in github). Bring the Federal Funds rate (FFR) information from the FEDFUNDS.xlsx. Bring in the information Crude Oil-M tab. (Starting from rows 41 and up to Jan 2023 data). Make sure months are standardized from 1/1/2020 to 1/1/2023 in the dataset. columns b-d in ffroilprice.xlsx is from real_prices.xlsx. columns E is from fedfunds.xlsx
+4. standardized date in e same format. standardize numbers in the same format.
+5. ffroilprice.xlsx is used for SAS to import. Download the file from Gi and uploaded thor import it to your SAS.
